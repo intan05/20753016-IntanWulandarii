@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        IntanWulandari_20753016
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Selamat Datang :)</h1>
+    <h4>Hi, perkenalkan</h4>
+    <p>Nama saya Intan Wulandari dengan Npm 20753016, Prodi Manajemen Informatika kelas 2a</p>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Nama Lengkap*</label><label class="validation-error hide" id="fullNameValidationError">halaman ini belum diisi.</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Masukkan Nama Lengkap Anda">
+                    </div>
+                    <div>
+                        <label>Npm</label>
+                        <input type="text" name="empCode" id="empCode" placeholder="Masukkan Npm">
+                    </div>
+                    <div>
+                        <label>Alamat</label>
+                        <input type="text" name="salary" id="salary" placeholder="Masukkan Alamat">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" name="city" id="city" placeholder="Masukkan Alamat Email">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Nama Lengkap</th>
+                            <th>Npm</th>
+                            <th>Alamat</th>
+                            <th>Email</th>
+                            <th>Tools</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
